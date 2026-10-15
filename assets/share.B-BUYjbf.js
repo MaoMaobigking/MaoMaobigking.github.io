@@ -1,0 +1,1 @@
+import{s as n,B as t}from"./index-JObItKGZ.js";const i="小程序不能直接发朋友圈：保存图片后，去微信朋友圈选这张图发布",o="点图放大后长按保存，再去微信朋友圈发布";function s(i,o="已复制"){const s=String(i||"").trim();s?t({data:s,success:()=>n({title:o,icon:"none"}),fail:()=>n({title:"复制失败，请手动选中",icon:"none"})}):n({title:"没有可复制的内容",icon:"none"})}export{o as M,i as a,s as c};
