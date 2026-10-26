@@ -1,0 +1,1 @@
+import{r as t,$ as o}from"./index-DBR5Y5GE.js";function e(e=1800){const a=t("");let s;return o(()=>{s&&clearTimeout(s)}),{toast:a,showToast:function(t){a.value=t,s&&clearTimeout(s),s=setTimeout(()=>{a.value="",s=void 0},e)}}}export{e as u};
